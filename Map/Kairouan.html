@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Kairouan.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Kairouan</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Kairouan</h1>
+                    <p>Première ville arabe d'Afrique du Nord6, la ville a été un important centre islamique de l'Afrique du Nord musulmane, l'Ifriqiya, jusqu'au xie siècle. Avec sa médina et ses marchés organisés par corporations à la mode orientale, ses mosquées et autres édifices religieux, Kairouan est inscrite depuis 1988 sur la liste du patrimoine mondial de l'Unesco. En 2009, elle est proclamée capitale de la culture islamique par l'Organisation du monde islamique pour l'éducation, les sciences et la culture.</p>               
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Mosquée Okba Ibn Nafaa</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Mosquée du Barbier</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Médina de Kairouan</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Mosquée des trois portes</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>68,02 km2</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>41 000</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>139 070</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>
+                Kairouan est située à 70 kilomètres de la côte méditerranéenne. Son territoire est délimité par Sbikha au nord, Chebika à l'ouest, Bou Hajla et Nasrallah au sud.Le climat de la ville est plus chaud et sec par rapport au littoral.
+            </p>
+        </div>
+        <div><img src="images/1200px-TN-08.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>Kairouan a été fondée en 670, par Okba ibn Nafi, un conquérant arabe, à cette époque, elle était une place fortifiée chargée de sécuriser la route allant en Égypte et de protéger le littoral contre les expéditions militaires des Byzantins. Elle devait également surveiller les tribus berbères installées dans les montagnes situées à l'ouest, tribus qui restèrent longtemps insoumises aux Arabes. En 683, les Berbères s'emparent de Kairouan, mais en sont expulsés trois ans plus tard par les Arabes.
+
+                Du IX au XIe siècle Kairouan est dirigée par les dynasties aghlabide et ziride. Elle est alors la capitale de l'Ifrikiyya. Elle est un grand centre économique, politique et religieux.
+                
+                En 1057, l'invasion hillalienne endommage fortement la ville, qui ne retrouvera pas sa splendeur passée.
+                
+                Dans les années 1880 (quand la France impose son protectorat à la Tunisie), Kairouan avait environ 15 000 habitants.</p> </div>
+        <div><img src="images/kairouanhistoire.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/kharjak-130316-2.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/makrouth-kairouan.jpg.webp">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/10642855.jpg.webp">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/68110142-1602008268.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

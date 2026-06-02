@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Zaghouan.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Zaghouan</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Zaghouan</h1>
+                    <p>Zaghouan est une ville du nord de la Tunisie et le chef-lieu du gouvernorat du même nom. À l'emplacement de l'antique Ziqua, dont il ne subsiste qu'une porte triomphale, Zaghouan est un bourg aux rues escarpées et coupées de petites places offrant des échappées sur la plaine. La ville est connue pour ses roses, notamment l'églantier (ancêtre botanique de la rose), qui étaient cultivées par les musulmans andalous (Morisques) chassés d'Espagne au xviie siècle lors de la Reconquista.
+                    </p>
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Le temple des eaux</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Hammam Zriba</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Montagne de Zaghouan</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Sidi Bou Gabrine</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>2 768 km²</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>7000</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>20 000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>SLe gouvernorat, situé à 51 kilomètres de la capitale, est limité par les gouvernorats de Ben Arous et La Manouba au nord, Sousse et Kairouan au sud et Siliana et Béja à l'ouest.
+
+                Administrativement, il est découpé en six délégations, sept municipalités, six conseils ruraux et 48 imadas.La température moyenne y est de 18 °C et la pluviométrie annuelle varie entre 350 et 550 millimètres selon les délégations.
+            </p>
+        </div>
+        <div><img src="images/1200px-TN-24.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>Zaghouan est l’une des plus importantes villes fondées par les Andalous en Tunisie vers 1610. Les principaux monuments de la vieille ville remontent au XVIIe siècle : mosquées, zawiyas, hammams, fontaines, souks, etc. De même les immigrés andalous avaient compris tous les avantages à tirer de ce site abondamment alimenté en eau par des sources intermittentes. Ainsi ils créèrent des jardins ceinturant la cité et développèrent des activités grandes consommatrices d’eau : teinturerie, tannerie, huilerie, meunerie dont les moulins étaient actionnés à l’énergie hydraulique. Dans cet article nous présentons quelques bâtiments et établissements évoqués par des documents, pour la plupart inédits, des archives locales notamment les actes de waqf. Nous nous arrêtons sur certains aspects relatifs à l’intérêt historique et architectural de tels monuments.</p>
+        </div>
+        <div><img src="images/Photo_5.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/Tunisian-Kaak-Warka-and-traditional-Turkish-coffee-on-a-plate.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/cite-regions-zaghouan-zinelabidine-2.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/Aqueduc_de_Zaghouan,_arches_au_sud_de_La_Mohamedia.JPG">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/Tunisie_Parc_de_Djebel_Zaghouan.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

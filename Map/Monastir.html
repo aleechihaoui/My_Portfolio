@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Monastir.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Monastir</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Monastir</h1>
+                    <p>Monastir est une ville côtière du Sahel tunisien, au centre-est de la Tunisie, située sur une presqu'île au sud-est du golfe d'Hammamet, à une vingtaine de kilomètres à l'est de Sousse et à 162 kilomètres au sud de Tunis.
+                        La ville est le chef-lieu du gouvernorat du même nom depuis 1974.
+                    </p>              
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Le Ribat de Monastir</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Mausolée de Habib Bourguiba</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Palais Présidentiel de Bourguiba</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Mausolée Habib Bourguiba</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>1 019 km²</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>72 000</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>104 535</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Monastir est une presqu'île entourée par la mer Méditerranée sur trois côtés et formant, vers le sud, le golfe du même nom, qui s'étend jusqu'au cap de Ras Dimass. Elle offre des paysages diversifiés, notamment ses plages sableuses et rocheuses ainsi qu'une falaise s'étendant sur près de six kilomètres.</p>
+        </div>
+        <div><img src="images/Monastir_in_Tunisia.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>Monastir, c’est aussi l’histoire d’une ville qui s’étend sur plus de dix siècles. En effet, la ville fait partie, avec Sousse et Kairouan, des toutes premières villes arabes fondées en Ifriqiya. Elle est bâtie sur les ruines de l'ancienne ville punico-romaine de Ruspina. 
+
+                La ville de Monastir est connue pour son Ribat, entre autres choses, qui fut érigé par le wali Harthama Ibn Ayoun sur ordre du calife abbasside Haroun ar-Rachid en 796 comme moyen de défense contre les attaques de la flotte byzantine en Méditerranée. Il représente, avec le Ribat de Sousse, l'une des deux forteresses les plus importantes de la côte du Sahel.</p>
+            </div>
+        <div><img src="images/monastirhistoire.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/francais_image2_35718_1458210766.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/1636732255_54.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/monastir_550.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/ribat-monastir-1024x683.jpg.webp">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+
+</body>
+</html>

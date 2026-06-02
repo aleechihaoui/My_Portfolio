@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Tataouine.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Tataouine</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Tataouine</h1>
+                    <p>Fondée sous le protectorat français, pour assurer la pacification du sud du pays, elle est surnommée la « Porte du désert ». Son nom signifie « Source d'eau », en berbère.
+
+                        Plaque tournante du tourisme dans le sud du pays, cette ville animée constitue une étape importante dans la visite du grand Sud tunisien (désert, ksour et autres villages fortifiés). Malgré un tourisme saharien dynamique, la ville conserve son identité et son architecture traditionnelle.</p>
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>La médina de Nabeul</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Chenini</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Douiret</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Ksar Ouled Soltane</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>38 889 km2</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>8 500</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>149 453</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Situé à 500 kilomètres de la capitale, il est limité par les gouvernorats de Kébili et Médenine au nord, par la Libye à l'est et par l'Algérie à l'ouest.
+
+                La température moyenne y est de 22 °C et la pluviométrie annuelle varie entre 88 et 157 millimètres1.
+                
+                Administrativement, le gouvernorat est découpé en sept délégations, six municipalités, cinq conseils ruraux et 64 imadas1. Remada est la plus grande des délégations de Tunisie pour ce qui est de la superficie.</p>
+        </div>
+        <div><img src="images/1200px-TN-21.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>La région de Tataouine connaît durant son histoire la succession et le brassage de plusieurs civilisations dont notamment les civilisations puniques, romaines, berbères et enfin arabo-musulmane.
+
+                Les Arabes venant de l'Orient se sont installés dans les plaines proches des puits pour exercer leurs activités agricoles et ont construit par la suite les ksour sur les montagnes pour y conserver les produits de leurs récoltes.
+                
+                En 1903, on enregistre le regroupement de plusieurs tribus qui étaient jusque-là de simples nomades pour constituer le noyau de l'actuelle ville de Tataouine (dont le nom signifie en berbère « source d'eau »).</p>
+             </div>
+        <div><img src="images/b14086_c264206aa8bb4881b6e76689f355281d~mv2_d_4032_3024_s_4_2.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/Tunisie_Desert_Star_Wars_Tataouine.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/maxresdefault.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/traditional-food-tour-couscous-in-tunisia-wildynesscom.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/photo-produit-407-appel2.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

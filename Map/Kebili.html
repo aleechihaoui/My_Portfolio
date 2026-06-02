@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Kebili.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Kebili</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Kebili</h1>
+                    <p>Situé au sud-ouest de la Tunisie, au cœur d´une oasis, le gouvernorat de Kébili est limité par Gafsa au Nord, Tozeur et l´Algérie à l´Ouest, Gabès et Médenine à l´Est et Tataouine au Sud. La région constitue le trait d´union entre la dense végétation de la palmeraie et les importantes dunes à l´horizon lointain. Ces paysages naturels uniques ont permis de développer le tourisme saharien dans la région.</p>
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Parc national de Jbil</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Chott el-Jérid</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Ksar ghilane</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Camp Abdelmoula</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>22 454 Km²</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>27 500</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>156 961</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Situé à plusieurs centaines de kilomètres de la capitale, le gouvernorat de Kébili est limité par le gouvernorat de Gafsa au nord, le gouvernorat de Tozeur et l'Algérie à l'ouest, le gouvernorat de Gabès et le gouvernorat de Médenine à l'est et le gouvernorat de Tataouine au sud.
+
+                La température moyenne y est de 21 °C alors que la moyenne de précipitations annuelles est de 43,9 mm.
+                
+                Administrativement, le gouvernorat est découpé en six délégations, six municipalités, cinq conseils ruraux et 42 imadas.</p>
+        </div>
+        <div><img src="images/TN-10.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>Kébili est chef-lieu de gouvernorat, la localité prend parfois des allures de caisse de résonance de l’interaction entre communautés nefzaouanes et autorités centrales ; parce que son statut administratif a engendré une diversité sociale plus grande qu’ailleurs, elle préfigure les transformations à venir dans les localités voisines, comme par exemple la défense d’un espace collectif à des fins purement spéculatives aux dépens de sa fonction initiale : un espace de vie communautaire. Car l’entrée en scène de nouvelles populations engendre de nouvelles solidarités qui contribuent peu à peu à l’effacement du rôle de la parenté dans les relations quotidiennes. Désormais, l’appartenance tribale se trouve reléguée au rang d’un instrument politique parmi d’autres, mais un instrument plus facilement mobilisable dans nos cas parce qu’il constitue un héritage local fort. </p>
+        </div>
+        <div><img src="images/kebili-ksar-ghilane.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/kebilicultureimg1.png">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/cuisine 099.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/pansea-ksar-ghilane.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/tunisie-vieux-kebili.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

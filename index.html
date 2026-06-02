@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alee Chihaoui – Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bb81a32259.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <span class="logo-text">Alee<span>.</span></span>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>BI Student &nbsp;·&nbsp; AI &amp; Automation &nbsp;·&nbsp; Web Developer</p>
+          <h1>Hi, I'm <span>Alee</span><br />Chihaoui</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" alt="Alee Chihaoui" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              2nd-year Business Intelligence student at IHEC Carthage (S1 GPA: 14.98/20),
+              passionate about web development, artificial intelligence and automation.
+              I build real-world projects — RAG chatbots, automated pipelines, interactive
+              dashboards and management systems — using Python, JavaScript, Java, n8n and more.
+              I also serve as Community Manager at HEC Finance Academy, merging technology
+              and creativity to deliver impactful digital solutions.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Programming Languages</span><br />
+                  Python, Java, C, C#, JavaScript, PHP, SQL, HTML/CSS
+                </li>
+                <li>
+                  <span>AI &amp; Automation</span><br />
+                  LLM, RAG, AI Agents, n8n workflows, REST API, Flask, OpenRouter
+                </li>
+                <li>
+                  <span>Databases</span><br />
+                  MySQL, Oracle, PL/SQL
+                </li>
+                <li>
+                  <span>Tools</span><br />
+                  Git/GitHub, Figma, Jupyter, VS Code, Excel (Advanced)
+                </li>
+                <li>
+                  <span>Languages</span><br />
+                  Arabic (Native) &nbsp;·&nbsp; French (C1) &nbsp;·&nbsp; English (C1) &nbsp;·&nbsp; Italian (A1)
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Community Manager – HEC Finance Academy &nbsp;|&nbsp; 2025 – Present</span><br />
+                  Visual content creation, social media strategy and digital communication for the club.
+                </li>
+                <li>
+                  <span>Intern – El Baraka Bank &nbsp;|&nbsp; 2025</span><br />
+                  Discovered the banking sector; observed financial operations and internal processes.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Bachelor in Business Intelligence &nbsp;|&nbsp; 2024 – Present</span><br />
+                  IHEC Carthage – Institut des Hautes Études Commerciales<br />
+                  S1 GPA: 14.98/20 · Programming, Databases, Data Analysis, Statistics
+                </li>
+                <li>
+                  <span>Baccalaureate – Experimental Sciences &nbsp;|&nbsp; 2024</span><br />
+                  Mention Très Bien · GPA: 16.19/20
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-robot"></i>
+            <h2>AI &amp; Automation</h2>
+            <p>
+              Building intelligent agents, RAG chatbots, automated billing pipelines
+              and LLM-powered apps using Python, n8n, Flask and OpenRouter.
+            </p>
+            <a href="#portfolio">See projects</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Responsive websites, interactive dashboards and REST API integrations
+              using HTML, CSS, JavaScript and Chart.js with clean, optimized UI.
+            </p>
+            <a href="#portfolio">See projects</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-bullhorn"></i>
+            <h2>Community Management</h2>
+            <p>
+              Social media strategy, visual content creation, promotional video
+              editing and digital branding for clubs and organizations.
+            </p>
+            <a href="https://www.instagram.com/hec_finance_academy/" target="_blank">See content</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <!-- Award-Winning -->
+        <div class="portfolio-category">
+          <h3 class="category-title">
+            <i class="fa-solid fa-trophy"></i> Award-Winning Project
+          </h3>
+          <div class="work-list work-list-featured">
+
+            <div class="work">
+              <div class="award-ribbon">🏆 Meilleur Pitch – IHEC 2026</div>
+              <img src="images/smart-budget-team.jpg" alt="Smart Budget Team" />
+              <div class="layer">
+                <h3>Smart Budget</h3>
+                <p>Student budget management app with AI chatbot, expense tracker and savings challenges. Built for Tunisian students.</p>
+                <div class="social-links-card">
+                  <a href="smart-budget.html" target="_blank" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="SmartBudget-2.pdf" target="_blank" title="Certificate"><i class="fa-solid fa-certificate"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- AI & Automation -->
+        <div class="portfolio-category">
+          <h3 class="category-title">
+            <i class="fa-solid fa-robot"></i> AI &amp; Automation
+          </h3>
+          <div class="work-list">
+
+            <div class="work">
+              <div class="work-placeholder gradient-1">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+              <div class="layer">
+                <h3>Automated Billing Pipeline</h3>
+                <p>Automated workflow: REST API → Python validation → SQL storage → HTML report. n8n + Python + SQL.</p>
+                <a href="https://github.com/aleechihaoui/pipeline-facturation" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work">
+              <div class="work-placeholder gradient-2">
+                <i class="fa-solid fa-comments"></i>
+              </div>
+              <div class="layer">
+                <h3>Financial RAG Assistant</h3>
+                <p>Chatbot answering questions on financial documents with source citations. Python + LLM + OpenRouter.</p>
+                <a href="https://github.com/aleechihaoui/assistant-rag" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work">
+              <div class="work-placeholder gradient-3">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div class="layer">
+                <h3>Conversational AI Dashboard</h3>
+                <p>Web interface with KPIs, charts and an AI agent to analyze data in natural language. JS + Chart.js + LLM.</p>
+                <a href="https://github.com/aleechihaoui/dashboard-ia" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Academic Projects -->
+        <div class="portfolio-category">
+          <h3 class="category-title">
+            <i class="fa-solid fa-graduation-cap"></i> Academic Projects
+          </h3>
+          <div class="work-list">
+
+            <div class="work">
+              <div class="work-placeholder gradient-4">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="layer">
+                <h3>Unimatch IHEC</h3>
+                <p>Student matching app based on shared profiles and interests. Built with Java.</p>
+                <a href="https://github.com/aleechihaoui/Unimatch" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work">
+              <div class="work-placeholder gradient-5">
+                <i class="fa-solid fa-book"></i>
+              </div>
+              <div class="layer">
+                <h3>IHEC Library App</h3>
+                <p>Full library management system for IHEC. Designed in Figma, built with C# and SQL.</p>
+                <a href="https://www.figma.com/design/3j3E9uRHebQ6g5rURiUsM6/Untitled?node-id=6-41&p=f&t=ZmypALO0PahxEQJx-0" target="_blank">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work">
+              <div class="work-placeholder gradient-6">
+                <i class="fa-solid fa-gamepad"></i>
+              </div>
+              <div class="layer">
+                <h3>Snake AI Game</h3>
+                <p>Snake game with autonomous AI navigation using a pathfinding algorithm. Built with C and SDL.</p>
+                <a href="https://github.com/aleechihaoui/snake-game" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work">
+              <div class="work-placeholder gradient-7">
+                <i class="fa-solid fa-heart-pulse"></i>
+              </div>
+              <div class="layer">
+                <h3>Student Health Dashboard</h3>
+                <p>Data analysis on student mental health and academic stress using Python and Jupyter Notebook.</p>
+                <a href="#" class="coming-soon-link" title="GitHub – Coming soon">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="work">
+              <div class="work-placeholder gradient-8">
+                <i class="fa-solid fa-map"></i>
+              </div>
+              <div class="layer">
+                <h3>Interactive Map of Tunisia</h3>
+                <p>Interactive map with structured data and geographic visualization per region. HTML/CSS/JS.</p>
+                <a href="Map/Accueil.html" target="_blank">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Community Management -->
+        <div class="portfolio-category">
+          <h3 class="category-title">
+            <i class="fa-solid fa-bullhorn"></i> Community Management
+          </h3>
+          <div class="work-list">
+
+            <div class="work">
+              <div class="work-placeholder gradient-cm">
+                <i class="fa-solid fa-users-rectangle"></i>
+              </div>
+              <div class="layer">
+                <h3>HEC Finance Academy</h3>
+                <p>Full social media management — content creation, visual design, reels and digital strategy for the club.</p>
+                <div class="social-links-card">
+                  <a href="https://www.instagram.com/hec_finance_academy/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/HEC.Finance.Academy" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.linkedin.com/company/hec-finance-academy/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://www.tiktok.com/@hec_fa" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="work">
+              <div class="work-placeholder gradient-9">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div class="layer">
+                <h3>Hackathon Promo Video</h3>
+                <p>Promotional video for HEC Code Lab Hackathon — engagement, branding and dynamic storytelling.</p>
+                <a href="https://www.instagram.com/reel/DUbo_LVDBj2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <a href="https://github.com/aleechihaoui" target="_blank" class="btn">See more on GitHub</a>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> aleechihaoui5@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> (+216) 55 273 819</p>
+
+            <div class="social-icons">
+              <a href="https://github.com/aleechihaoui" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/alee-chihaoui-35b68133b/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/alae_chihaoui/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/alae.chihaoui" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+
+            <a href="Alee_Chihaoui_CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2026 Alee Chihaoui. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (var tablink of tablinks) tablink.classList.remove("active-link");
+        for (var tabcontent of tabcontents) tabcontent.classList.remove("active-tab");
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() { sidemenu.style.right = "0"; }
+      function closemenu() { sidemenu.style.right = "-200px"; }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwbhADz4-T76--u2fsYi9KY7O5BaOrTjgYBW_ww0RJ8FW8Y0WGruJ9SkInUzq2d1Lt0eQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => response.json())
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () { msg.innerHTML = ""; }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>

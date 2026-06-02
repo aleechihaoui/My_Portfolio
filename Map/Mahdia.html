@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Mahdia.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Mahdia</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Mahdia</h1>
+                    <p>Localisé au cœur de la grande région du Sahel tunisien, le gouvernorat de Mahdia ouvre sur le bassin oriental de la méditerranée avec un littoral de plus de 75 km de longueur.</p>
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Médina de Mehdia</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Mosquée Hadj MUSTAPHA</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Notre Dame du Mont Carmel</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Amphithéâtre El Djem</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>2 878 km²</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>44 000</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>410 812</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Situé à 105 kilomètres de la capitale, le gouvernorat de Béja constitue une zone de liaison géographique entre les gouvernorats voisins. Il est délimité par la mer Méditerranée (26 kilomètres de littoral au nord), le gouvernorat de Bizerte au nord-est, le gouvernorat de la Manouba à l'est, le gouvernorat de Zaghouan au sud-est, le gouvernorat de Siliana au sud et le gouvernorat de Jendouba à l'ouest.</p>
+        </div>
+        <div><img src="images/TN-12.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>L'année 916 voit l'arrivée du premier calife fatimide Ubayd Allah al-Mahdi qui ordonne la fondation de Mahdia, dont la construction s'étale sur cinq ans, et qui lui donne son nom actuel. La ville devient ainsi la capitale des Fatimides en 921 et le reste jusqu'en 973, date à laquelle Mahdia est remplacée par Le Caire. Assiégée durant huit mois (944-945) par les kharidjites sous la conduite de leur chef Abu Yazid, la ville résiste victorieusement. En 1057, les Zirides s'y réfugient face à la menace des Hilaliens.
+
+                En 1086-1087, pour faire cesser les attaques répétées des corsaires de cette région, notamment celles orchestrées par le souverain ziride Tamim (1062-1108), les grandes villes marchandes du nord du bassin méditerranéen — Gênes, Pise, Amalfi, Salerne et Gaète — arment des bâtiments et s'emparent de Mahdia.</p>
+            </div>
+        <div><img src="images/Mahdia_Crusade_02.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/11057404_876659085758363_5190197265711450620_n.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/Makhsa-Une.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/41101420-1596449247.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/img-3.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

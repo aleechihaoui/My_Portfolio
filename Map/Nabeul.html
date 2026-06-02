@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Nabeul.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Nabeul</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Nabeul</h1>
+                    <p>Promontoire pointé vers la Sicile, la région du Cap Bon est un vaste jardin où les orangers et les citronniers brandissent leurs fruits d’or au cœur de l’hiver. Ses plages de sable fin comptent parmi les plus belles de Tunisie. Ville principale du Cap Bon, Nabeul est une ville d’artisanat réputée pour sa poterie, ses nattes de jonc et ses essences de fleurs. Le port de pêche de Kélibia, les sources chaudes de Korbous, les fauconniers d’El Haouaria sont quelques-unes des curiosités de cette région.</p>               
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>La médina de Nabeul</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Le fort de Kélibia</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Site archéologique de Néapolis</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Le stade Nabeulien</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>4 822 km2</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>11 102</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>787 920</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Située dans la région du cap Bon, qui constitue une péninsule s'enfonçant dans la mer Méditerranée,
+                 Nabeul est située au centre de son flanc sud-est, non loin de la ville d'Hammamet, et constitue l'une des plus importantes 
+                 localités qui se succèdent le long de la côte du golfe d'Hammamet. Son environnement est constitué de vergers et de jardins.
+                  Grâce à sa plage de sable fin et son climat méditerranéen, la région est une destination appréciée des touristes européens et
+                   représente le second pôle touristique de la région après Hammamet.
+            </p>
+        </div>
+        <div><img src="images/langfr-800px-TN-16.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>Dans l'Antiquité gréco-romaine, la ville portait le nom de Néapolis, la « ville neuve », dont dérive son nom actuel de Nabeul. Elle devint ensuite un comptoir carthaginois.
+
+                La région du cap Bon est l'un des centres de l'activité artisanale en Tunisie. Cet art a connu un grand développement après l’indépendance et surtout avec la croissance de l’industrie touristique2.
+                
+                Diverses techniques ont été transmises à Nabeul par les Français, comme la poterie, tandis que les carreaux de céramique sont plutôt hérités de l’Espagne, les poupées de sucre viennent d’une tradition sicilienne, etc. Cela n’empêche pas que ces activités ont été fortement développées grâce à la créativité et au sens artistique des artisans nabeuliens à travers les décennies3.</p>
+            </div>
+        <div><img src="images/2e2d5-1kdbma6fwml6hhtymudziya.jpeg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/88424913_2443135609331082_1492699292266135552_o.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/nabeul-050917-1.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/nabeul-271016-6.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/Plage-de-Nabeul.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

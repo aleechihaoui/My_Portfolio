@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Gabes.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Gabes</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Gabes</h1>
+                    <p>Situé au Sud-Est de la Tunisie, le gouvernorat de Gabès s´étend sur une superficie de 7 166 Km2. Il est limité à l´Est par la Méditerranée (une côte de 80 km), à l´Ouest par le gouvernorat de Kébili, au Nord-Est par le gouvernorat de Sfax, au Nord-Ouest par le gouvernorat de Gafsa et au Sud par le gouvernorat de Médenine.
+
+                        La région constitue le pôle des industries chimiques de transformation du phosphate du pays avec la production d´acide phosphorique et de triple superphosphate.</p>
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Plage corniche de Gabes</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Nouvelle mosquée de Jara</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Musée ethnographique de Gabès</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Plage el Kazma Gabès</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>7 166 Km²</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>38 000</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>374 300</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Situé à 105 kilomètres de la capitale, le gouvernorat de Béja constitue une zone de liaison géographique entre les gouvernorats voisins. Il est délimité par la mer Méditerranée (26 kilomètres de littoral au nord), le gouvernorat de Bizerte au nord-est, le gouvernorat de la Manouba à l'est, le gouvernorat de Zaghouan au sud-est, le gouvernorat de Siliana au sud et le gouvernorat de Jendouba à l'ouest.</p>
+        </div>
+        <div><img src="images/TN-05.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>L'origine du nom de Gabès nous fait conclure que la cité a été fondée par les Berbères bien avant l'arrivée des Phéniciens qui regroupent l'une de ses agglomérations en comptoir commercial. La ville reste carthaginoise jusqu'au iie siècle av. J.-C. et la Deuxième guerre punique puis devient une colonie romaine. L'oasis devient alors un centre commercial florissant rattaché à la Tripolitaine dont Pline célèbre avec emphase la fécondité du sol. La ville est encore très prospère sous la domination byzantine.
+
+                La ville est aussi le siège d'un évêché. Au début du ve siècle, nous connaissons le catholique Dulcitius et le donatiste Felix. Dans la Noticia de 484, l'évêque se nomme Servilius alors qu'au concile de Carthage de 525, il s'appelle Gaius7. De nos jours, Tacapae est un siège titulaire.</p>
+            </div>
+        <div><img src="images/gafsahis.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/musee-sahara-douz-patrimoine.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/coussss.jpeg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/gabesculutreimg3.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/gabes-oasis.jpg.webp">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

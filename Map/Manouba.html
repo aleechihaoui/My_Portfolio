@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Manouba.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Manouba</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Manouba</h1>
+                    <p>Situé au centre des gouvernorats du nord entre Bizerte, Zaghouan, Béja, Tunis, Ariana et Ben Arous, le gouvernorat de Manouba est connu pour son caractère typiquement agricole et industriel.</p>
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Municipalité</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Université</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Musée</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Complexe culturel</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>1 137 km²</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>36 500</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>379 518</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Le gouvernorat est situé à 5,5 kilomètres de la capitale et est entouré des gouvernorats de Bizerte, Zaghouan, Béja, Tunis, l'Ariana et Ben Arous.
+
+                La température moyenne est de 18,7 °C et la pluviométrie annuelle est de 450 millimètres.
+                
+                Administrativement, le gouvernorat est découpé en huit délégations, neuf municipalités, huit conseils ruraux et 47 imadas.</p>
+        </div>
+        <div><img src="images/1200px-TN-13.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>La municipalité de la Manouba, créée en vertu du décret du 23 juillet 19424, est considérée parmi les municipalités les plus anciennes du Grand Tunis. Elle compte une population de 32 029 habitants en 2014.
+                La Manouba faisait partie des résidences d'été des beys de Tunis. C'est pourquoi la ville abrite un ensemble de palais appartenant à des ministres beylicaux. On dénombre près de vingt grandes demeures, dont huit palais au milieu de segna (vergers) du xixe siècle, construites sur le modèle de palais italiens avec de fortes notes arabo-andalouses.
+            </p>
+            </div>
+        <div><img src="images/manoubahistoire.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/manoubacultureimg1.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/manoubacultureimg2.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/manouba.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/Metrotn.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

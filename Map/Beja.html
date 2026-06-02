@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Beja.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Beja</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Beja</h1>
+                    <p>Situé au Nord-Ouest de la Tunisie, le Gouvernorat de Béja occupe une position centrale qui lui permet d´être un axe médian entre le littoral et l´Ouest du pays. Faisant frontière avec cinq autres gouvernorats et une petite ouverture sur la mer (un littoral de 26 km), le gouvernorat de Béja est traversé par les axes routiers les plus importants qui relie l´Est à l´Ouest du pays ainsi que la voie ferrée reliant la capitale Tunis à la frontière algérienne.</p>
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Kouchbatia</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Djebel Gorra</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Dogga</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Aïn Tounga</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>3 740 Km²</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>39 000</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>303 032</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Situé à 105 kilomètres de la capitale, le gouvernorat de Béja constitue une zone de liaison géographique entre les gouvernorats voisins. Il est délimité par la mer Méditerranée (26 kilomètres de littoral au nord), le gouvernorat de Bizerte au nord-est, le gouvernorat de la Manouba à l'est, le gouvernorat de Zaghouan au sud-est, le gouvernorat de Siliana au sud et le gouvernorat de Jendouba à l'ouest.</p>
+        </div>
+        <div><img src="images/1200px-TN-02.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>Vaga, c'est ainsi qu'elle s'appelait au temps des Romains, a connu de multiples péripéties.
+
+                D'origine libyque puis carthaginoise. Elle connut un essor économique important sous le règne du roi numide Massinissa puis de son fils Jugurtha (116 ab J-C). Passé sous contrôle romain, l'empereur Septime Sévère lui conféra le statut de Municipe.
+                
+                Elle connut l'invasion vandale puis byzantine. Elle devint un point stratégique important sous le règne de Justinien qui y fit construire des remparts et une citadelle dont les vestiges sont visibles jusqu'à nos jours.  Ce rayonnement se poursuivit pendant l'ère Aghlabide.</p>
+            </div>
+        <div><img src="images/bejahistoire.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/amilcar-beja-gal2.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/10345542_294298510693740_3232870338974833937_n.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/640px-Beja_panorama.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/67736973_2363915383724648_4300430618954563584_o-1024x683.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>

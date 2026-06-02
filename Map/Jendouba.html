@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Jendouba.css">
+    <link href="https://fonts.cdnfonts.com/css/chalkboard-se" rel="stylesheet">
+    <title>Jendouba</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/tunisia.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#geo">Localisation</a></li>
+                        <li><a href="#his">Histoire</a></li>
+                        <li><a href="#cu">Culture</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col c">
+                    <h1>Jendouba</h1>
+                    <p>Jendouba, nommée Souk El Arba jusqu'au 30 avril 1964, est une ville du Nord-Ouest de la Tunisie située à 154 kilomètres de Tunis et à cinquante kilomètres de la frontière algéro-tunisienne.
+
+                        Elle se trouve dans la vallée de la Medjerda au centre d'une plaine fertile.</p>               
+                    <button type="button"><a href="#chif">Explorer</a></button>
+                </div>
+                <div class="col cl">
+                    <div class="card card1">
+                        <h5>Le fort Genois</h5>
+                    </div>
+                    <div class="card card2">
+                        <h5>Bulla Regia</h5>
+                    </div>
+                    <div class="card card3">
+                        <h5>Foret Ain drahem</h5>
+                    </div>
+                    <div class="card card4">
+                        <h5>Jendouba Sports</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="chif">
+
+            <div class="title">
+                <h2>Quelques chiffres</h2>
+                <div class="line"></div>
+            </div>
+    
+            <div class="boxe">
+                <div class="carde">
+                    <i class="fas fa-bars"></i>
+                    <h5>Superficie</h5>
+                    <div class="pra">
+                        <p>3 102 km2</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-user"></i>
+                    <h5>Nombre de maisons</h5>
+                    <div class="pra">
+                        <p>92 000</p>
+                    </div>
+                </div>
+    
+                <div class="carde">
+                    <i class="far fa-bell"></i>
+                    <h5>Habitants</h5>
+                    <div class="pra">
+                        <p>401 365</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="geo" class="explore">
+        <div class="explore-content">
+            <h1>Localisation</h1>
+            <div class="line"></div>
+            <p>Le gouvernorat de Jendouba se situe à l'extrémité nord-ouest de la Tunisie, à 150 kilomètres de la capitale. Il est limité par les gouvernorats du Kef et de Siliana au sud, le gouvernorat de Béja à l'est, 135 kilomètres de frontière avec l'Algérie (wilaya d'El Tarf) à l'ouest et la mer Méditerranée au nord, avec un littoral long de 25 kilomètres.</p>
+        </div>
+        <div><img src="images/1200px-TN-07.svg.png" alt=""></div>
+       </section>
+
+    <section id="his" class="explore explore2">
+        <div class="explore-content">
+            <h1>Histoire</h1>
+            <div class="line"></div>
+            <p>Héritière et prolongement de l'antique cité de Bulla Regia, le noyau de la ville moderne de Jendouba commence à prendre naissance autour de la gare, ouverte peu avant l'instauration du protectorat français le 1er septembre 1879. Devenue municipalité le 25 septembre 1887, la ville se développe, dans un premier temps, du côté nord de la ligne de chemin de fer puis s'étend peu à peu vers le sud.
+
+                Son nom originel de Souk El Arba, soit « marché du mercredi », est lié directement au jour du marché hebdomadaire qui se tenait chaque mercredi.</p>
+             </div>
+        <div><img src="images/Villa_chasse_bulla_regia.jpg" alt=""></div>
+    </section>
+
+    <section id="cu">
+        <div class="cont">
+            <h1>Culture</h1>
+            <div class="containers">
+                <div class="box">
+                    <img src="images/jendoubacultureimg1.png">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/7fc6e8e12981133b8827553938586439c37d3e8f.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/jendouba_1509122538.jpg">
+                  <span>hover me</span>
+                </div>
+                <div class="box">
+                    <img src="images/jendoubacultureimg4.jpg">
+                  <span>hover me</span>
+                </div>
+              </div>
+        </div>
+
+    </section>
+   
+    <section class="footer">
+        <button id="back-button">Revenir à la carte.</button>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById("back-button").onclick = function() {
+          history.back();
+        };
+      </script>
+</body>
+</html>
